@@ -1,1 +1,1 @@
-![Main Page](images/image.png)
+![Main Page](images/1.jpg)
