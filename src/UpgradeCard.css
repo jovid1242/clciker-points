@@ -1,0 +1,36 @@
+.upgrade-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .upgrade-card.purchased {
+    background-color: #ecae19;
+    border-color: #4CAF50;
+  }
+  
+  .upgrade-card p {
+    margin: 5px 0;
+  }
+  
+  .purchase-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .purchase-button:disabled {
+    background-color: #ff0;
+    cursor: not-allowed;
+  }
+  
